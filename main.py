@@ -1,8 +1,8 @@
 from ChickenDisease import logger
-from src.ChickenDisease.pipeline.stage01_data_ingestion import DataIngestionTrainingPipeline
-from src.ChickenDisease.pipeline.stage02_prepare_base_model import PrepareBaseModelTrainingPipeline
-from src.ChickenDisease.pipeline.stage03_training import ModelTrainingPipeline
-from src.ChickenDisease.pipeline.stage04_evaluation import EvaluationPipeline
+from ChickenDisease.pipeline.stage01_data_ingestion import DataIngestionTrainingPipeline
+from ChickenDisease.pipeline.stage02_prepare_base_model import PrepareBaseModelTrainingPipeline
+from ChickenDisease.pipeline.stage03_training import ModelTrainingPipeline
+from ChickenDisease.pipeline.stage04_evaluation import EvaluationPipeline
 
 
 

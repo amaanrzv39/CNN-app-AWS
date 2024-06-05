@@ -1,8 +1,8 @@
 from flask import Flask, request, jsonify, render_template
 import os
 from flask_cors import CORS, cross_origin
-from src.ChickenDisease.utils.common import decodeImage
-from src.ChickenDisease.pipeline.predict import PredictionPipeline
+from ChickenDisease.utils.common import decodeImage
+from ChickenDisease.pipeline.predict import PredictionPipeline
 
 
 os.putenv('LANG', 'en_US.UTF-8')
